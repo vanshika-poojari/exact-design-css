@@ -154,14 +154,14 @@ export default function TemplatesTable() {
           <table className="w-full">
             <thead>
               <tr className="border-b border-border bg-table-header">
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Template Key</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Language</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Name</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Subject</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">HTML Content</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Text Content</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Created At</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Updated At</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Template Key</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Language</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Name</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Subject</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">HTML Content</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Text Content</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Created At</th>
+                <th className="border-r border-table-border px-4 py-3 text-left text-sm font-medium text-foreground">Updated At</th>
                 <th className="px-4 py-3 text-left text-sm font-medium text-foreground">Actions</th>
               </tr>
             </thead>
@@ -171,14 +171,14 @@ export default function TemplatesTable() {
                   key={index} 
                   className="border-b border-border bg-card hover:bg-table-row-hover transition-colors"
                 >
-                  <td className="px-4 py-3 text-sm text-foreground">{template.templateKey}</td>
-                  <td className="px-4 py-3 text-sm text-foreground">{template.language}</td>
-                  <td className="px-4 py-3 text-sm text-foreground">{template.name}</td>
-                  <td className="px-4 py-3 text-sm text-foreground">{template.subject}</td>
-                  <td className="px-4 py-3 text-sm text-foreground max-w-xs truncate">{template.htmlContent}</td>
-                  <td className="px-4 py-3 text-sm text-foreground max-w-xs truncate">{template.textContent}</td>
-                  <td className="px-4 py-3 text-sm text-foreground">{template.createdAt}</td>
-                  <td className="px-4 py-3 text-sm text-foreground">{template.updatedAt}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.templateKey}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.language}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.name}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.subject}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground max-w-xs truncate">{template.htmlContent}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground max-w-xs truncate">{template.textContent}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.createdAt}</td>
+                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.updatedAt}</td>
                   <td className="px-4 py-3">
                     <div className="flex items-center space-x-2">
                       <Button

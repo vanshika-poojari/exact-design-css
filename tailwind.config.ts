@@ -50,6 +50,7 @@ export default {
         "table-header": "hsl(var(--table-header))",
         "table-row-hover": "hsl(var(--table-row-hover))",
         "text-secondary": "hsl(var(--text-secondary))",
+        "table-border": "hsl(var(--table-border))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

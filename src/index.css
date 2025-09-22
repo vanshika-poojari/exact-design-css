@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 18%;
 
-    --primary: 213 93% 48%;
+    --primary: 215 100% 37%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 13% 95%;
@@ -34,12 +34,13 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 213 93% 48%;
+    --ring: 215 100% 37%;
 
     /* Table specific colors */
     --table-header: 220 13% 95%;
     --table-row-hover: 220 13% 98%;
     --text-secondary: 220 9% 46%;
+    --table-border: 235 15% 82%;
 
     --radius: 0.5rem;
 
