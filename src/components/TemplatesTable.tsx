@@ -169,31 +169,31 @@ export default function TemplatesTable() {
               {templates.map((template, index) => (
                 <tr 
                   key={index} 
-                  className="border-b border-border bg-card hover:bg-table-row-hover transition-colors"
+                  className="border-b border-border bg-card hover:bg-table-row-hover transition-colors h-[27px]"
                 >
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.templateKey}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.language}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.name}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.subject}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground max-w-xs truncate">{template.htmlContent}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground max-w-xs truncate">{template.textContent}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.createdAt}</td>
-                  <td className="border-r border-table-border px-4 py-3 text-sm text-foreground">{template.updatedAt}</td>
-                  <td className="px-4 py-3">
-                    <div className="flex items-center space-x-2">
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.templateKey}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.language}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.name}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.subject}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.htmlContent}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.textContent}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.createdAt}</td>
+                  <td className="border-r border-table-border px-4 text-sm text-foreground whitespace-nowrap h-[27px]">{template.updatedAt}</td>
+                  <td className="px-4 h-[27px]">
+                    <div className="flex items-center space-x-2 h-full">
                       <Button
                         variant="ghost"
                         size="sm"
-                        className="h-8 w-8 p-0 text-primary hover:bg-accent hover:text-primary"
+                        className="h-6 w-6 p-0 text-primary hover:bg-accent hover:text-primary"
                       >
-                        <Edit className="h-4 w-4" />
+                        <Edit className="h-3 w-3" />
                       </Button>
                       <Button
                         variant="ghost"
                         size="sm"
-                        className="h-8 w-8 p-0 text-destructive hover:bg-destructive/10 hover:text-destructive"
+                        className="h-6 w-6 p-0 text-destructive hover:bg-destructive/10 hover:text-destructive"
                       >
-                        <Trash2 className="h-4 w-4" />
+                        <Trash2 className="h-3 w-3" />
                       </Button>
                     </div>
                   </td>
